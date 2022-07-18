@@ -5,15 +5,17 @@
 		<link rel="stylesheet" href="Fontawesome.web/Fontawesome.web/css/all.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-		<link rel="stylesheet" href="kwikwik.css" />
+		<link rel="stylesheet" href="css/kwikwik.css" />
 
 	</head>
 	<body>
 		<div class="header ">
 			<div class="container  flex">
-				<div class="logo">
+				<div>
+					<a href="index.html" class="logo">
 					<i class="fa fa-truck-fast  fa-2x"></i>
 					<h1>Kwikwik</h1>
+					</a>
 				</div>
 				<div class="menu">
 					<i class="fa fa-bars fa-2x" onclick="show( );"></i>
@@ -21,7 +23,7 @@
 						<ol>
 							<i class="fa fa-x fa-2x" onclick="hide( );"></i>
 							<li>
-								<a href="kwikwik.html">Home</a>
+								<a href="index.html">Home</a>
 							</li>
 							<li>
 								<a href="orderpage.html">Order a rider</a>
@@ -36,18 +38,29 @@
 								<a href="contract.html">Partner with us</a>
 							</li>
 						</ol>
+							<div class="contact">
+						<i class="fab fa-facebook fa-2x"></i>
+						<i class="fab fa-whatsapp fa-2x"></i>
+						<i class="fab fa-twitter fa-2x"></i>
+						<i class="fab fa-instagram fa-2x"></i>
+						<i class="fab fa-telegram fa-2x"></i>
+					</div>
+				
 					</nav>
 				</div>
 			</div>
 		</div>
 		<main>
 			<section>
-				<div class="intro">
+				<div class="intro" style="background:url(img/bgimg2.jpg);
+      background-attachment:fixed;
+      background-position:center;
+      background-size:cover;
+      background-repeat:no-repeat;	">
 					<h2>Kwikwik</h2>
 					<p>Send, Receive and Move kwikwik...</p>
 				</div>
 			</section>
-			<article id="abt">
 				<section class="about">
 					<div class="text-center">
 						<h2>About us</h2>
@@ -58,7 +71,7 @@
 							<p>Lorem ipsum dolor sit amet. Et iste quam non reprehenderit architecto ut perferendis voluptates non esse velit a quia libero rem quibusdam rerum est voluptas omnis.</p>
 						</div>
 						<div>
-							<img src="reliable .jpg" />
+							<img src="img/reliable.jpg" />
 
 						</div>
 					</div>
@@ -66,7 +79,7 @@
 				<section class="about2">
 					<div class="container flex about2">
 						<div>
-							<img src="efficient .jpg" />
+							<img src="img/efficient.jpg" />
 
 						</div>
 						<div>
@@ -82,7 +95,7 @@
 							<p>Lorem ipsum dolor sit amet. Et iste quam non reprehenderit architecto ut perferendis voluptates non esse velit a quia libero rem quibusdam rerum est voluptas omnis.</p>
 						</div>
 						<div>
-							<img src="easy3.jpg"/>
+							<img src="img/easy3.jpg"/>
 
 						</div>
 					</div>
@@ -90,7 +103,7 @@
 				<section class="about2">
 					<div class="container flex about2">
 						<div>
-							<img src="eandt.jpg" />
+							<img src="img/eandt.jpg" />
 
 						</div>
 						<div>
@@ -106,7 +119,7 @@
 							<p>Lorem ipsum dolor sit amet. Et iste quam non reprehenderit architecto ut perferendis voluptates non esse velit a quia libero rem quibusdam rerum est voluptas omnis.</p>
 						</div>
 						<div>
-							<img src="trackable.jpg" />
+							<img src="img/trackable.jpg" />
 
 						</div>
 					</div>
@@ -114,7 +127,7 @@
 				<section class=" about2">
 					<div class="container flex about2">
 						<div>
-							<img src="affordable2.jpg"  />
+							<img src="img/affordable2.jpg"  />
 
 						</div>
 						<div>
@@ -135,12 +148,11 @@
 							</div>
 						</div>
 						<div>
-							<img src="kwik.jpg"  />
+							<img src="img/kwik.jpg"  />
 
 						</div>
 					</div>
 				</section>
-			</article>
 			<section class="services">
 				<div class="container text-center ">
 					<h2>Our services</h2>
@@ -196,7 +208,7 @@
 						</div>
 					</div>
 					<div>
-						<img src="gabike.jpg" />
+						<img src="img/gabike.jpg" />
 
 					</div>
 				</div>
@@ -277,7 +289,7 @@
 			<div class="container boss">
 				<h2>Meet the Boss</h2>
 				<div>
-					<img src="chee.jpg" class="rounded-img" style="box-shadow:0 4px 16px #333" />
+					<img src="img/chee.jpg" class="rounded-img" style="box-shadow:0 4px 16px #333" />
 
 				</div>
 				<div>
@@ -349,7 +361,8 @@
 								<a href="#">Support</a>
 							</h4>
 							<p>FAQs</p>
-							<p>+2349024724891</p>
+							<p><a href="#abt">About us</a></p>
+							<p><i class="fa fa-phone"></i> +2349024724891</p>
 						</div>
 					</div>
 					<div>

@@ -89,7 +89,7 @@
       }
       #content ol a:hover {
          color: white;
-         background: rgba(255,99,71,0.4);
+         background: rgba(255,99,71,0.3);
       }
       .fa-x{
        color:white;
@@ -101,11 +101,6 @@
        flex-direction:column;
        justify-content:center;
        align-items:center;
-      background-image:url("easy2.jpg");
-      background-attachment:fixed;
-      background-position:center;
-      background-size:cover;
-      background-repeat:no-repeat;
       color:#000;
       }
       section{
@@ -173,6 +168,14 @@
         flex-direction:row;
         justify-content:center;
         align-items:center;
+        color:#fff;
+        cursor:pointer;
+       }
+       .fa-bars, .fa-x{
+       	cursor:pointer;
+       }
+       .fa-bars:active, .fa-x:active{
+       	transform:scale(0.9);
        }
        .reviews{
        	
@@ -184,10 +187,10 @@
         color:#000;
        }
        .reviews .card{
-        background:#BCBCBC;
+        background:#fff;
         height:100%;
-            box-shadow:-4px -4px 12px rgba(255,255,255,0.9), 4px 4px 12px rgba(0,0,0,0.5);
-        
+            box-shadow:0 4px 8px rgba(0,0,0,0.3);
+        color:#000;
         
        }
        .reviews .card p:before,
@@ -312,9 +315,10 @@
        }
        .services .card{
         text-align:center;
+        height:100%;
      /*   background:rgba(255,99,71,0.3);*/
         color:#333;
-          box-shadow:-4px -4px 12px rgba(255,255,255,0.3)/* rgba(255,99,71,0.1)*/, 4px 4px 12px rgba(0,0,0,0.3);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.3);
        transition:all 0.5s ease-in;
        }
     /*   .services .card:hover{
@@ -350,8 +354,11 @@
         align-items:center;
         margin:20px;
        }
-       footer i{
-        margin:5px;
+       footer p{
+       	margin:10px;
+       }
+       .contact i{
+        margin:8px;
        }
        /*utilities*/
        .flex{
@@ -478,6 +485,7 @@
         outline:none;
       /*  box-shadow:0 8px 8px #333, 0 9px 15px #333;*/
         margin:90px 20px;
+        object-fit:cover;
         }
   button{
    display:flex;
